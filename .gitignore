@@ -1,0 +1,69 @@
+# =========================
+# UiPath
+# =========================
+# Local project settings (not needed in repo)
+*.local/
+*.screenshots/
+project.json.user
+
+# Publish folders
+*.nupkg
+
+# UiPath logs
+*.log
+logs/
+logs.txt
+
+# =========================
+# Visual Studio / C# (for UiPath custom activities)
+# =========================
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dbmdl
+*.jfm
+
+# VS Code / Rider settings
+.vscode/
+.idea/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# =========================
+# OS Specific
+# =========================
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# =========================
+# Others
+# =========================
+# Temporary / backup files
+*.tmp
+*.bak
+*.swp
+*.orig
